@@ -1,0 +1,8 @@
+START
+    DISPLAY
+    INPUT, "PIN"
+    IF PIN == USERPIN
+  yes>show balance/etc
+  no>INPUT, "PIN" >swallow card at 3rd bad attempt
+  
+END
